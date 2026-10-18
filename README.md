@@ -32,6 +32,3 @@ The Diabetes data load directly through scikit-learn; no external data download 
 - Standardization occurs within Ridge/Lasso pipelines to avoid data leakage.
 - Compared a small predefined range of alphas. Test-set results were used for educational *comparison*, not parameter tuning. Real-world selection should use cross-validation on the training data and a final untouched test set.
 - These are statistical predictions, not causal claims or medical guidance.
-
-## Submission
-Create a public GitHub repository named `MSCS_634_Lab_4`, upload the three files, and submit its URL in your course portal.
